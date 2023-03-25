@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--==================== FAVICON ====================-->
+  <link rel="icon" href="assets/img/logo.svg" />
+  <!--========== BOX ICONS LIBRARY ==========-->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <!--========== CSS ==========-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!--========== Title ==========-->
+  <title>UraCab</title>
+
+  <!--================== LINK THUMBNAIL META TAGS ===================-->
+  <!-- MS Tile - for Microsoft apps-->
+  <meta name="msapplication-TileImage"
+    content="" />
+  <!-- fb & Whatsapp -->
+  <meta property="og:site_name" content="UraCab" />
+  <meta property="og:title" content="UraCab" />
+  <meta property="og:description" content="Get your taxi online" />
+  <!-- IMG URL: -->
+  <meta property="og:image"
+    content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <!--  size up to 300px. Anything above this will not work in WhatsApp -->
+  <meta property="og:image:width" content="300" />
+  <meta property="og:image:height" content="300" />
+  <meta property="og:url" content="" />
+</head>
+
+<body>
+  <!--========== SCROLL TOP ==========-->
+  <a href="#" class="scrollTop show-scroll" id="scroll-top">
+    <i class="bx bx-chevron-up scrollTop_icon"></i>
+  </a>
+
+  <!--========== HEADER ==========-->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="/" class="nav_logo">
+        <b>
+          UraCab
+          <!-- <span>Cab</span> -->
+        </b>
+      </a>
+
+      <div class="nav_menu" id="nav-menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#home" class="nav_link">Home</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link">About</a>
+          </li>
+          <li class="nav_item">
+            <a href="#services" class="nav_link">Services</a>
+          </li>
+          <li class="nav_item">
+            <a href="#team" class="nav_link">Team Members</a>
+          </li>
+          <li class="hidden_item">
+            <a href="#app" class="nav_link">Download</a>
+          </li>
+          <li class="nav_item">
+            <a href="#contact" class="nav_link">Contact</a>
+          </li>
+
+          <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+        </ul>
+      </div>
+
+      <div class="nav_toggle" id="nav-toggle">
+        <!--When clicked activate the class "opened"
+          to the button tag as well to the 4 SVG lines-->
+        <button class="menu" aria-label="Abrir Menu"
+          onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))">
+          <svg width="40" height="41" viewBox="0 0 100 100">
+            <path class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--========== HOME ==========-->
+    <section class="home" id="home">
+      <div class="home_container bd-container bd-grid">
+        <div class="home_data">
+          <h1 class="home_title">Ride with UraCab</h1>
+          <h2 class="home_subtitle">Online taxi across Nagaland</h2>
+          <a href="#app" class="button">Book Now</a>
+        </div>
+
+        <img src="assets/img/car.png" alt="Prato de comida saudável" class="home_img" />
+      </div>
+    </section>
+
+    <!--========== ABOUT ==========-->
+    <section class="about section bd-container" id="about">
+      <div class="about_container bd-grid">
+        <div class="about_data">
+          <h2 class="section-title about_initial">
+            About
+          </h2>
+          <p class="about_description">
+            UraCab is an unregistered Private Limited Company established in 2023 by a group
+            of like-minded educated youths from the State of Nagaland with a view to bring services
+            like online taxi booking system to the State, similar to what companies like OlaCabs and
+            Uber provide in other metrocities but on a smaller scale keeping in mind the State’s
+            demography and topography.
+          </p>
+          <a href="#app" class="button">Download App</a>
+        </div>
+
+        <img src="assets/img/app_icon.png" alt="Ingredientes naturais" class="about_img" />
+      </div>
+    </section>
+
+    <!--========== SERVICES ==========-->
+    <section class="services section bd-container" id="services">
+      <h2 class="section-title">Services</h2>
+
+      <div class="services_container bd-grid">
+        
+
+        <div class="services_content">
+          <h3 class="services_title">What we offer</h3>
+          <p class="services_description">
+            UraCab is a mobile application offering one-click
+            taxi booking system within the state of Nagaland.
+            Through the use of UraCab app, the user will have
+            the convenience of booking taxi rides by simply
+            adding their pick-up and drop locations; the app
+            will also allow live tracking and SOS button thereby
+            making it safe and reliable; fares will be calculated
+            according to the distance between the pick-up and
+            drop location; moreover, the app will be userfriendly
+            and designed to suit people of all ages with access
+            to a smartphone.
+          </p>
+        </div>
+
+        <div class="services_content">
+          <h3 class="services_title">Mission & Vision Statements</h3>
+          <p class="services_description">
+            Some of the issues UraCab aims on tackling include safety of passengers and driver
+            party, easing traffic congestion, minimizing pollution, providing fair taxi fares, making taxi
+            services more widely available within the state, etc.
+            The Company’s main objective is to make travel for residents as well as tourists
+            easy, accessible, safe and reliable. In order to achieve this, the UraCab app and website are
+            presently under works and we aim to have it developed by the end of March, 2023, after
+            which there will be testing and prototype before it is open to the public for use.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--========== team ==========-->
+    <section class="team section bd-container" id="team">
+      <h2 class="section-title">Team Members</h2>
+
+      <div class="team_container bd-grid">
+        <div class="team_content">
+          <img src="assets/img/Sazo3.jpg" alt="" class="team_img" />
+          <h3 class="team_name">K Mere</h3>
+          <span class="team_designation">Chief Executive Officer</span>
+        </div>
+
+        <div class="team_content">
+          <img src="assets/img/Nungkum4.jpg" alt="" class="team_img" />
+          <h3 class="team_name">Imnanungkum Jamir</h3>
+          <span class="team_designation">Chief Operating Officer</span>
+        </div>
+
+        <div class="team_content">
+          <img src="assets/img/Kaushal3.jpg" alt="" class="team_img" />
+          <h3 class="team_name">Kaushal Bey</h3>
+          <span class="team_designation">Chief Technical Officer</span>
+        </div>
+
+        <div class="team_content">
+          <img src="assets/img/pangkam2.jpeg" alt="" class="team_img" />
+          <h3 class="team_name">Pangkam D Sangma</h3>
+          <span class="team_designation">Junior Chief Technical Officer</span>
+        </div>
+
+        <div class="team_content">
+          <img src="assets/img/Keneithou5.jpg" alt="" class="team_img" />
+          <h3 class="team_name">Keneithou Vizo</h3>
+          <span class="team_designation">Chief Financial Officer</span>
+        </div>
+
+        <div class="team_content">
+          <img src="assets/img/Rokovono4.jpg" alt="" class="team_img" />
+          <h3 class="team_name">Rokovono</h3>
+          <span class="team_designation">Chief Planning & Coordination Officer</span>
+        </div>
+
+        <div class="team_content">
+          <img src="assets/img/Sazo3.jpg" alt="" class="team_img" />
+          <h3 class="team_name">Kekhriesetuo Ziephru</h3>
+          <span class="team_designation">Advisor</span>
+        </div>
+
+        <div class="team_content">
+          <img src="assets/img/Anen1.jpg" alt="" class="team_img" />
+          <h3 class="team_name">Obangnela Longchar</h3>
+          <span class="team_designation">Legal Advisor</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!--===== APP =======-->
+    <section class="app section bd-container" id="app">
+      <div class="app_container bd-grid">
+        <div class="app_data">
+          <h2 class="section-title app_initial">Download Application!</h2>
+          <p class="app_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde inventore placeat quos repellat reprehenderit dignissimos suscipit quis amet sit ex.
+          </p>
+          <div class="app_stores">
+            <a href="#"><img src="assets/img/playStoreDownload.png" alt="" class="app_store" /></a>
+            <a href="#"><img src="assets/img/appStoreDownload.svg" alt="" class="app_store" /></a>
+          </div>
+        </div>
+
+        <img src="assets/img/app_icon.png" alt="" class="app_img" />
+      </div>
+    </section>
+
+    <!--========== CONTACT US ==========-->
+    <section class="contact section bd-container" id="contact">
+      <div class="contact_container bd-grid">
+        <div class="contact_data">
+          <h2 class="section-title contact_initial">Contact</h2>
+          <p class="contact_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nam ab eaque quidem voluptatem fugit officiis laboriosam alias quisquam nesciunt.
+          </p>
+        </div>
+
+        <div class="contact_button">
+          <a href="#" class="button">Entrar em Contato</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--========== FOOTER ==========-->
+  <footer class="footer section bd-container">
+    <div class="footer_container bd-grid">
+      <div class="footer_content">
+        <b class="footer_logo">
+          UraCab
+          <!-- <span>Cab</span> -->
+        </b>
+
+        <span class="footer_description">Social medias</span>
+
+        <div>
+          <a href="#" class="footer_social"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="footer_social"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="footer_content">
+        <h3 class="footer_title">Informações</h3>
+        <ul>
+          <li><a href="#" class="footer_link">Eventos</a></li>
+          <li><a href="#" class="footer_link">Política de Privacidade</a></li>
+          <li><a href="#" class="footer_link">Termos de serviço</a></li>
+        </ul>
+      </div>
+
+      <div class="footer_content">
+        <h3 class="footer_title">Location</h3>
+        <ul>
+          <li>UraCab Pvt. Ltd.</li>
+          <li>Kohima Science College, Jotsoma, Kohima</li>
+        </ul>
+      </div>
+
+      <div class="footer_content">
+        <h3 class="footer_title">Navigation</h3>
+        <ul>
+          <li><a href="#app" class="footer_link">Download</a></li>
+          <li><a href="#contact" class="footer_link">Contact</a></li>
+          <li><a href="#team" class="footer_link">Team Members</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer_copy">
+      &#169; UraCab 2023,
+      <a href="https://google.com" class="footer_link" target="_blank">
+        Pangkam Damang
+      </a>
+    </p>
+  </footer>
+
+  <!--========== SCROLL REVEAL LIBRARY ==========-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--========== MAIN JS ==========-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
