@@ -3,7 +3,7 @@
 
 /*===== VARIABLES CSS =====*/
 :root {
-  --header-height: 2.5rem;
+  --header-height: 1.5rem;
 
   /*========== Colors ==========*/
   --first-color: #279a71;
@@ -94,27 +94,6 @@ a {
 img {
   max-width: 100%;
   height: auto;
-}
-
-/*========== Variables Dark theme ==========*/
-body.dark-theme {
-  --title-color: #fff;
-  --text-color: #e8e8e8;
-  --text-color-light: #838385;
-  --body-color: #111f24;
-  --container-color: #172a31;
-  --logo-dark-color: #f1f3f2;
-  --shadow-color: rgba(214, 214, 214, 0.1);
-}
-
-/*========== Button Dark/Light ==========*/
-.change-theme {
-  position: absolute;
-  right: 1rem;
-  top: 1.8rem;
-  color: var(--text-color);
-  font-size: 1.3rem;
-  cursor: pointer;
 }
 
 /*========== CLASS CSS ==========*/
@@ -544,7 +523,7 @@ body.dark-theme {
   }
 
   .section {
-    padding-top: 8rem;
+    padding-top: 3rem;
   }
 
   .nav_logo {
@@ -565,12 +544,6 @@ body.dark-theme {
   .nav_toggle {
     display: none;
   }
-  .change-theme {
-    position: initial;
-    margin-top: 2px;
-    margin-left: 2.5rem;
-  }
-
   .home_container {
     height: 100vh;
     justify-items: center;
